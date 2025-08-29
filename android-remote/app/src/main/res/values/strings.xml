@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Remote Control</string>
+    
+    <!-- Main Activity -->
+    <string name="device_info_title">Device Information</string>
+    <string name="connection_status_title">Connection Status</string>
+    <string name="controls_title">Controls</string>
+    
+    <!-- Device Info -->
+    <string name="device_name_label">Device Name:</string>
+    <string name="device_model_label">Model:</string>
+    <string name="android_version_label">Android Version:</string>
+    <string name="screen_resolution_label">Screen Resolution:</string>
+    <string name="ip_address_label">IP Address:</string>
+    <string name="network_name_label">Network:</string>
+    
+    <!-- Buttons -->
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="settings">Settings</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="screen_capture">Screen Capture</string>
+    <string name="accessibility">Accessibility</string>
+    
+    <!-- Connection Status -->
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connecting">Connecting...</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required_title">Permissions Required</string>
+    <string name="permission_required_message">This app requires various permissions to function properly. Please grant all permissions.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="deny_permissions">Deny</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">Allows remote control of touch gestures and device navigation. This service is required for full remote control functionality.</string>
+    <string name="accessibility_service_summary">Enable touch control for remote access</string>
+    
+    <!-- Screen Capture -->
+    <string name="screen_capture_permission_title">Screen Capture Permission</string>
+    <string name="screen_capture_permission_message">Allow this app to capture your screen for remote viewing?</string>
+    
+    <!-- QR Code -->
+    <string name="qr_scan_title">Scan QR Code</string>
+    <string name="qr_scan_message">Scan the QR code displayed on the web browser to connect automatically.</string>
+    
+    <!-- Notifications -->
+    <string name="notification_service_running">Remote control service is running</string>
+    <string name="notification_service_connected">Connected to remote control server</string>
+    <string name="notification_tap_to_open">Tap to open</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="server_settings_title">Server Settings</string>
+    <string name="device_settings_title">Device Settings</string>
+    <string name="about_title">About</string>
+    
+    <string name="server_url_title">Server URL</string>
+    <string name="server_url_summary">WebSocket server address</string>
+    <string name="server_url_default">ws://192.168.1.100:3000</string>
+    
+    <string name="device_name_title">Device Name</string>
+    <string name="device_name_summary">Name shown in web interface</string>
+    
+    <string name="auto_start_title">Auto Start</string>
+    <string name="auto_start_summary">Start service automatically when device boots</string>
+    
+    <string name="video_quality_title">Video Quality</string>
+    <string name="video_quality_summary">Higher quality uses more bandwidth</string>
+    
+    <string name="audio_enabled_title">Enable Audio</string>
+    <string name="audio_enabled_summary">Share device audio with remote client</string>
+    
+    <string name="show_touch_title">Show Touch Points</string>
+    <string name="show_touch_summary">Display visual feedback for touch events</string>
+    
+    <!-- Video Quality Options -->
+    <string-array name="video_quality_entries">
+        <item>Low (480p)</item>
+        <item>Medium (720p)</item>
+        <item>High (1080p)</item>
+        <item>Ultra (1440p)</item>
+    </string-array>
+    
+    <string-array name="video_quality_values">
+        <item>480</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1440</item>
+    </string-array>
+    
+    <!-- Error Messages -->
+    <string name="error_permissions_denied">Required permissions were denied</string>
+    <string name="error_accessibility_not_enabled">Accessibility service is not enabled</string>
+    <string name="error_screen_capture_denied">Screen capture permission denied</string>
+    <string name="error_connection_failed">Failed to connect to server</string>
+    <string name="error_service_start_failed">Failed to start service</string>
+    
+    <!-- Success Messages -->
+    <string name="success_service_started">Service started successfully</string>
+    <string name="success_service_stopped">Service stopped</string>
+    <string name="success_connected">Connected to server</string>
+    <string name="success_qr_scanned">QR code scanned successfully</string>
+    
+    <!-- About -->
+    <string name="app_version">Version 1.0</string>
+    <string name="app_description">Remote control your Android device from any web browser with real-time screen sharing and touch control.</string>
+    <string name="developer">Developed by Android Remote Control Team</string>
+    <string name="open_source">This app is open source</string>
+    
+    <!-- Help -->
+    <string name="help_title">Help</string>
+    <string name="help_setup_title">Setup Instructions</string>
+    <string name="help_setup_content">1. Install this app on your Android device\n2. Grant all required permissions\n3. Enable accessibility service\n4. Start the service\n5. Open the web interface on your computer\n6. Connect to your device</string>
+    
+    <string name="help_permissions_title">Required Permissions</string>
+    <string name="help_permissions_content">• Internet: Connect to remote server\n• Screen Capture: Share your screen\n• Accessibility: Control touch and gestures\n• Storage: File transfer\n• Camera: QR code scanning\n• Microphone: Audio sharing</string>
+    
+    <string name="help_troubleshooting_title">Troubleshooting</string>
+    <string name="help_troubleshooting_content">• Ensure both devices are on the same network\n• Check firewall settings\n• Restart the service\n• Re-grant permissions if needed\n• Check server URL in settings</string>
+</resources>
